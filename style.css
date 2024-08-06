@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-image: url('fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.foto{
+    position: absolute;
+    width: 18%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #91742294;
+    float: right;
+    margin: 12% 60%;
+}
+
+
+.titulo2{
+    position: absolute;
+    font-size: 400%;
+    margin-top: 20%;
+    margin-left: 15%;
+    text-shadow: 
+        1px 1px 0 #91742294, 
+        -1px -1px 0 #91742294, 
+        1px -1px 0 #91742294, 
+        -1px 1px 0 #91742294;
+}
+
+.titulo{
+    position: absolute;
+    font-size: 400%;
+    margin-top: 16%;
+    margin-left: 15%;
+    padding-right: .7%;
+    text-shadow: 
+        1px 1px 0 #91742294, 
+        -1px -1px 0 #91742294, 
+        1px -1px 0 #91742294, 
+        -1px 1px 0 #91742294;
+}
+
+#logo-ig{
+    position: absolute;
+    width: 7%; 
+    height: 7%;
+    margin-top: 25%;
+    margin-left: 15%;
+}
+
+#logo-fb{
+    position: absolute;
+    width: 7%; 
+    height: 7%;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+#logo-tw{
+    position: absolute;
+    width: 7%; 
+    height: 7%;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+#logo-wsp{
+    position: absolute;
+    width: 7%; 
+    height: 7%;
+    margin-top: 25%;
+    margin-left: 30%;
+}
